@@ -95,7 +95,7 @@ Run all unit tests with:
 npm test
 ```
 
-Add more tests in the `__tests__` directory or next to the modules being tested.
+Add more tests in the `./src/tests` directory or next to the modules being tested.
 
 ---
 
