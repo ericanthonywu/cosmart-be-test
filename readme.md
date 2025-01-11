@@ -19,6 +19,7 @@ Services to make schedules and get list of books using [OpenLibrary Subject API]
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [Typescript](https://www.typescriptlang.org/)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Installation
