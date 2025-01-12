@@ -14,7 +14,7 @@ import loggerUtil from "./util/loggerUtil";
     const server = http.createServer(app);
     app.use(
         cors({
-          origin: process.env.FRONTEND_HOST,
+          origin: [process.env.FRONTEND_HOST ?? ""],
         }),
     );
 
