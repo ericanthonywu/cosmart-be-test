@@ -9,7 +9,6 @@ export default {
     process.env = await Joi.object({
       PORT: Joi.number().port().required(),
       NODE_ENV: Joi.string().valid("local","development","staging","production"),
-      FRONTEND_HOST: Joi.string().required(),
       OPEN_LIBRARY_URL: Joi.string().uri().required(),
     })
         .unknown(true)

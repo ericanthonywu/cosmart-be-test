@@ -13,9 +13,7 @@ import loggerUtil from "./util/loggerUtil";
     const app = express();
     const server = http.createServer(app);
     app.use(
-        cors({
-          origin: [process.env.FRONTEND_HOST ?? ""],
-        }),
+        cors(),
     );
 
     app.use(helmet());
